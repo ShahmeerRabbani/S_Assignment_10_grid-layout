@@ -1,0 +1,395 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(117, 117, 238);
+  overflow: hidden;
+}
+
+.container {
+  margin: 1% auto;
+  width: 60%;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-areas:
+    "cont1 cont2 cont3"
+    "cont4 cont5 cont6"
+    "cont7 cont8 cont9";
+}
+
+.box1 {
+  grid-area: cont1;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm2 colm3"
+    "colm1 colm2 colm3"
+    "colm1 colm2 colm3";
+}
+.box1 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+}
+
+.box1 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+}
+.box1 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+}
+
+.box2 {
+  grid-area: cont2;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm1 colm2 colm2"
+    "colm1 colm1 colm2 colm2"
+    "colm1 colm1 colm3 colm3"
+    "colm1 colm1 colm3 colm3";
+}
+
+.box2 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+}
+
+.box2 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box2 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+
+.box3 {
+  grid-area: cont3;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm2 colm3"
+    "colm4 colm5 colm6";
+}
+.box3 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box3 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box3 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box3 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box3 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+.box3 .col6 {
+  grid-area: colm6;
+  border: 2px solid gray;
+  
+}
+
+.box4 {
+  grid-area: cont4;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm2 colm3"
+    "colm4 colm2 colm5"
+    "colm4 colm6 colm5";
+}
+
+.box4 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box4 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box4 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box4 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box4 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+.box4 .col6 {
+  grid-area: colm6;
+  border: 2px solid gray;
+  
+}
+
+.box5 {
+  grid-area: cont5;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm1 colm1 colm2 colm2 colm2"
+    "colm1 colm1 colm1 colm2 colm2 colm2"
+    "colm3 colm3 colm4 colm4 colm5 colm5"
+    "colm3 colm3 colm4 colm4 colm5 colm5";
+}
+.box5 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+}
+.box5 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+}
+.box5 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+}
+.box5 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+}
+.box5 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+}
+
+.box6 {
+  grid-area: cont6;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm1 colm2"
+    "colm1 colm1 colm3"
+    "colm4 colm5 colm6";
+}
+
+.box6 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box6 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box6 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box6 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box6 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+.box6 .col6 {
+  grid-area: colm6;
+  border: 2px solid gray;
+  
+}
+
+.box7 {
+  grid-area: cont7;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm1 colm2 colm2"
+    "colm1 colm1 colm3 colm4"
+    "colm1 colm1 colm5 colm4";
+}
+.box7 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box7 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box7 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box7 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box7 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+
+.box8 {
+  grid-area: cont8;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm1 colm2 colm2 colm3"
+    "colm1 colm1 colm2 colm2 colm4"
+    "colm1 colm1 colm5 colm6 colm7";
+}
+.box8 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box8 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box8 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box8 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box8 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+
+.box8 .col6 {
+  grid-area: colm6;
+  border: 2px solid gray;
+  
+}
+.box8 .col7 {
+  grid-area: colm7;
+  border: 2px solid gray;
+  
+}
+
+.box9 {
+  grid-area: cont9;
+  border: 1px solid black;
+  background-color: white;
+  height: 190px;
+  display: grid;
+  grid-template-areas:
+    "colm1 colm2 colm3 colm4"
+    "colm5 colm5 colm6 colm6"
+    "colm7 colm8 colm9 colm10 ";
+}
+.box9 .col1 {
+  grid-area: colm1;
+  border: 2px solid gray;
+  
+}
+
+.box9 .col2 {
+  grid-area: colm2;
+  border: 2px solid gray;
+  
+}
+.box9 .col3 {
+  grid-area: colm3;
+  border: 2px solid gray;
+  
+}
+.box9 .col4 {
+  grid-area: colm4;
+  border: 2px solid gray;
+  
+}
+
+.box9 .col5 {
+  grid-area: colm5;
+  border: 2px solid gray;
+  
+}
+
+.box9 .col6 {
+  grid-area: colm6;
+  border: 2px solid gray;
+  
+}
+.box9 .col7 {
+  grid-area: colm7;
+  border: 2px solid gray;
+  
+}
+.box9 .col8 {
+  grid-area: colm8;
+  border: 2px solid gray;
+  
+}
+
+.box9 .col9 {
+  grid-area: colm9;
+  border: 2px solid gray;
+  
+}
+.box9 .col10 {
+  grid-area: colm10;
+  border: 2px solid gray;
+  
+}
